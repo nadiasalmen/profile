@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #B9EBCC;
+  font-family: 'Open Sans', sans-serif;
+  color: #1F4068;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100px;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200px;
+  color: #FF6363;
+  margin: 5px;
+}
+
+.card {
+  background-color: #F4F4F4;
+  padding: 10px 0px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 40px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  width: 150px;
+  border-radius: 50%
+}
+
+.list-inline {
+  font-size: 40px;
+  padding: 0px;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #dbdbdb;
+}
+
+.list-inline i:hover {
+  color: #FF6363;
+}
